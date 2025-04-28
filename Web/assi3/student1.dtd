@@ -1,4 +1,0 @@
-<!ELEMENT student (name, age, course)>
-<!ELEMENT name (#PCDATA)>
-<!ELEMENT age (#PCDATA)>
-<!ELEMENT course (#PCDATA)>

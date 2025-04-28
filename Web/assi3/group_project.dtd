@@ -1,8 +1,0 @@
-<!DOCTYPE group_project [
-    <!ELEMENT group_project (member+)>
-    <!ELEMENT member (name, role, specialization, email, contact)>
-    <!ELEMENT name (#PCDATA)>
-    <!ELEMENT role (#PCDATA)>
-    <!ELEMENT specialization (#PCDATA)>
-    <!ELEMENT email (#PCDATA)>
-    <!ELEMENT contact (#PCDATA)>]>
