@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+        .container p {
+            color: blue;
+        }
+
+        .container > p {
+            font-weight: bold;
+        }
+        h2 + p {
+            color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Heading</h2>
+        <p>This is a  child paragraph.</p>
+        <div>
+            <p>This is a nested paragraph.</p>
+        </div>
+    </div>
+    <h2>Another Heading</h2>
+    <p>This paragraph follows an h2 and should be green and italic.</p>
+    <p>This is another sibling paragraph.</p>
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.clickme:active{
+
+    background-color: lightblue;
+    color: black;
+}
+
+a:visited{
+    background-color: red;
+}
+
+input:focus{
+    border: 2px solid green;
+}

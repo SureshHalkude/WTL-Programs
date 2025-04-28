@@ -1,0 +1,7 @@
+<!DOCTYPE library [
+    <!ELEMENT library (book+)>
+    <!ELEMENT book (name, author, year, publisher)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT year (#PCDATA)>
+    <!ELEMENT publisher (#PCDATA)>]>

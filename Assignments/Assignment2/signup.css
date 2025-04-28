@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+/* Container */
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}
+
+/* Labels */
+label {
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Input & Select */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Placeholder Text */
+input::placeholder {
+    font-style: italic;
+    color: #888;
+}
+
+/* Focus Effect */
+input:focus, select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Radio Buttons */
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 0;
+}
+
+.radio-group label {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* Required Fields */
+input:required, select:required {
+    border-left: 3px solid red;
+}
+
+/* Submit Button */
+button {
+    width: 80%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Paragraph & Link */
+p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
